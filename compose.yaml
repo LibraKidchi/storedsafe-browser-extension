@@ -1,0 +1,6 @@
+services:
+  storedsafebrowserextension:
+    image: storedsafebrowserextension
+    build:
+      context: .
+      dockerfile: ./Dockerfile
